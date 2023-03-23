@@ -4,5 +4,10 @@ body {
 }
 
 h1 {
+	text-align: center;
 	@include font-base(1.7rem, 700);
+
+	@include for-phone-only {
+		@include font-base(1.5rem, 700);
+	}
 }

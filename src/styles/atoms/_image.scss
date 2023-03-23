@@ -8,10 +8,14 @@
 		&:hover {
 			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.9);
 		}
+
+		@include for-phone-only {
+			@include size(7rem);
+		}
 	}
 
 	&.img__link {
-		@include size(3rem);
+		@include size(2.5rem);
 		border-radius: 0.75rem;
 		font-weight: 100;
 	}

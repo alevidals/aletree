@@ -5,7 +5,15 @@
 	color: $color;
 }
 
+// Sizes ======================================
 @mixin size($width, $height: $width) {
 	width: $width;
 	height: $height;
+}
+
+// Media queries ======================================
+@mixin for-phone-only {
+	@media (max-width: 640px) {
+		@content;
+	}
 }

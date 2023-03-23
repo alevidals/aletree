@@ -24,4 +24,8 @@
 			color: white;
 		}
 	}
+
+	@include for-phone-only {
+		width: 20rem;
+	}
 }
