@@ -1,0 +1,8 @@
+*,
+body {
+	font-family: $open-sans;
+}
+
+h1 {
+	@include font-base(1.7rem, 700);
+}
